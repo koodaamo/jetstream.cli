@@ -1,6 +1,7 @@
 """Command-line interface to the Jetstream framework.
 
 Usage:
+  jet list [--config FILE] [--log LEVEL]
   jet run <pipename> [--config FILE] [--log LEVEL]
   jet (-h | --help)
   jet --version
@@ -34,6 +35,11 @@ def main():
    if args["--log"]:
       print("setting log level to %s" % args["--log"])
       logger.setLevel(getattr(logging, args["--log"]))
+
+   if args["list"]:
+      names = MappingConfig(cfg).pipes.keys()
+      print("Configured pipes: '" + "', '".join(names) + "'")
+      sys.exit()
 
    if args["run"] and args["<pipename>"]:
       s = Streamer(args["<pipename>"], cfg)
