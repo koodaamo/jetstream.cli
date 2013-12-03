@@ -9,7 +9,7 @@ Jetstream CLI
         :target: https://crate.io/packages/jetstream.cli?version=latest
 
 A command-line interface for the Jetstream framework. Supported commands
-are `list´for showing available pipes that can be run, and `run` for
+are `list` for showing available pipes that can be run, and `run` for
 running such a pipe::
 
   Usage:
