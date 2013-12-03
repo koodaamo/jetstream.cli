@@ -8,7 +8,9 @@ Jetstream CLI
 .. image:: https://pypip.in/d/jetstream.cli/badge.png
         :target: https://crate.io/packages/jetstream.cli?version=latest
 
-A command-line interface for the Jetstream framework::
+A command-line interface for the Jetstream framework. Supported commands
+are `list´for showing available pipes that can be run, and `run` for
+running such a pipe::
 
   Usage:
     jet list [--config FILE] [--log LEVEL]
