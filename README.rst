@@ -21,5 +21,5 @@ running such a pipe::
   Options:
     -h --help        Show this screen.
     --version        Show version.
-    --config FILE    Use a given config file.
+    --config FILE    Use a given YAML config file.
     --log LEVEL      Set log level (DEBUG|INFO|WARN|ERROR)
