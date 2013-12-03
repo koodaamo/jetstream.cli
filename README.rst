@@ -5,19 +5,19 @@ Jetstream CLI
 .. image:: https://badge.fury.io/py/jetstream.cli.png
     :target: http://badge.fury.io/py/jetstream.cli
     
-.. image:: https://travis-ci.org/koodaamo/jetstream.cli.png?branch=master
-        :target: https://travis-ci.org/koodaamo/jetstream.cli
-
 .. image:: https://pypip.in/d/jetstream.cli/badge.png
         :target: https://crate.io/packages/jetstream.cli?version=latest
 
+A command-line interface for the Jetstream framework::
 
-Command-line interface for the Jetstream framework
+  Usage:
+    jet list [--config FILE] [--log LEVEL]
+    jet run <pipename> [--config FILE] [--log LEVEL]
+    jet (-h | --help)
+    jet --version
 
-* Free software: BSD license
-* Documentation: http://jetstream.cli.rtfd.org.
-
-Features
---------
-
-* TODO
+  Options:
+    -h --help        Show this screen.
+    --version        Show version.
+    --config FILE    Use a given config file.
+    --log LEVEL      Set log level (DEBUG|INFO|WARN|ERROR)
